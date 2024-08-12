@@ -1,0 +1,163 @@
+body {
+    font-family: Merriweather, serif;
+    background-color: #fff;
+    margin: 0;
+    text-align: center;
+    color: black;
+    height: 100vh;
+}
+
+.container-top {
+    padding-top: 10px;
+    position: relative;
+    background-color: #FFDA76;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.img-container {
+    order: -1;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sancremento", cursive;
+}
+
+h2 {
+    color: #41CBBF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.img-bottom {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px 0;
+
+}
+
+.img-python {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px 0;
+}
+
+.img-hongo {
+    padding: 10px;
+}
+
+.into {
+    width: 30%;
+    margin: auto;
+}
+
+h3 {
+    color: #41CBBF;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+
+.custom-button {
+    background-color: #41CBBF;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #41CBBF;
+    transform: scale(1.05);
+}
+
+.custom-button:active {
+    background-color: #FFDA76;
+    transform: scale(0.98);
+}
+
+footer {
+    padding: 50px 0 30px;
+    background-color: #FFDA76;
+}
+
+a {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.custom-footer {
+    background-color: #FFDA76;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #41CBBF
+}
+
+.contact-text {
+    width: 40%;
+    margin: 40px auto 60px;
+}
